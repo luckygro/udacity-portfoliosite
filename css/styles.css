@@ -1,0 +1,139 @@
+/*  luckyg portfolio - udacity nanodegree project 1
+ *  ---------
+ *  main stylesheet
+ *  
+ *  color:
+ *    - #ccd42c
+ *
+ *  font:
+ *    - Arial
+ *    - Helvetica
+ *    - sans-serif
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0px 20px;
+}
+
+header {
+  background: rgb(55, 184, 188);
+  background: linear-gradient(
+    30deg,
+    rgba(55, 184, 188, 1) 0%,
+    rgba(204, 212, 44, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.header-content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logoimg {
+  max-width: 150px;
+}
+
+.logoimg img {
+  width: 100%;
+}
+
+.slogan {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #fff;
+  color: #fff;
+}
+
+.slogan .slogan-name {
+  display: block;
+  font-size: 16pt;
+}
+
+.slogan .slogan-text {
+  display: block;
+  font-size: 12pt;
+}
+
+.eyecatcher {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.featuredwork {
+  padding: 40px 0px;
+}
+
+.featuredwork h3 {
+  color: #ccd42c;
+  font-size: 24pt;
+  font-weight: normal;
+}
+
+.featuredworkcontainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.featuredwork .item {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.featuredwork .item-img {
+  width: 100%;
+}
+
+.featuredwork p {
+  color: #666;
+}
+
+.featuredwork .item-title {
+  font-size: 18pt;
+  color: #ccd42c;
+}
+
+footer {
+  padding: 40px 0px;
+  background-color: #666;
+  overflow: hidden;
+}
+
+.footer-content {
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.impressum {
+  border-top: 2px #fff solid;
+  padding-top: 20px;
+}
+
+.impressum span {
+  display: block;
+}
+
+.impressum .impressum-name {
+  font-weight: bolder;
+}
+
+.credits span {
+  font-weight: bolder;
+}

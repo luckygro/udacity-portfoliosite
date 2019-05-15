@@ -1,0 +1,11 @@
+/*  luckyg portfolio - udacity nanodegree project 1
+ *  ---------
+ *  stylesheet laptop size (> 1024px)
+ *
+ */
+
+/* add 3rd column to featured work */
+
+.featuredworkcontainer .item {
+  width: 31%;
+}

@@ -1,0 +1,26 @@
+/*  luckyg portfolio - udacity nanodegree project 1
+ *  ---------
+ *  stylesheet tablet size (> 550px)
+ *
+ */
+
+/* rearrange header and footer */
+
+.header-content,
+.footer-content {
+  flex-wrap: nowrap;
+}
+
+.slogan,
+.impressum {
+  border-top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: right;
+}
+
+/* add 2nd column to featuredwork */
+
+.featuredworkcontainer .item {
+  width: 48%;
+}
